@@ -23,7 +23,7 @@ function main() {
 
 const displayCard = (data) => {
   const parentCard = document.getElementById("card-parent");
-  const parentDiv = document.getElementById("error-handel");
+  const parentDiv = document.getElementById("error-handle");
 
   parentCard.innerHTML = "";
   parentDiv.innerHTML = "";
@@ -54,7 +54,7 @@ const displayCard = (data) => {
         <img
           src="${item.thumbnail}"
           alt="${item.title}"
-          class="rounded-xl cover"
+          class=" cover"
         />
         ${
           item.others.posted_date
